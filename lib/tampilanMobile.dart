@@ -61,6 +61,9 @@ class _TampilanAndroidState extends State<TampilanAndroid> {
                   },
                 ),
                 Text('Ini Slider Android'),
+                SizedBox(
+                  height: 20,
+                ),
                 TextButton(
                   onPressed: () {},
                   child: Text("button"),
@@ -70,14 +73,23 @@ class _TampilanAndroidState extends State<TampilanAndroid> {
                   child: Text('Button'),
                 ),
                 Text('Ini Android Buttons'),
+                SizedBox(
+                  height: 20,
+                ),
                 Container(
                   child: TextField(),
                   width: 500,
                   height: 40,
                 ),
-                Text('Ini Cupertino Text Field'),
+                Text('Ini Android Text Field'),
+                SizedBox(
+                  height: 20,
+                ),
                 Icon(Icons.share),
                 Text('Ini Android Icon'),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),

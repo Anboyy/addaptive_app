@@ -65,6 +65,9 @@ class _TampilanIosState extends State<TampilanIos> {
                   },
                 ),
                 Text('Ini Slider Cuopertion (IOs)'),
+                SizedBox(
+                  height: 20,
+                ),
                 CupertinoButton(child: Text('Button'), onPressed: () {}),
                 CupertinoButton.filled(
                   onPressed: null,
@@ -75,14 +78,23 @@ class _TampilanIosState extends State<TampilanIos> {
                   child: const Text('Enabled'),
                 ),
                 Text('Ini Button Cuopertion (IOs)'),
+                SizedBox(
+                  height: 20,
+                ),
                 Container(
                   child: CupertinoTextField(),
                   width: 500,
                   height: 40,
                 ),
                 Text('Ini Cupertino Text Field'),
+                SizedBox(
+                  height: 20,
+                ),
                 Icon(Icons.ios_share),
                 Text('Ini Cupertino Icon'),
+                SizedBox(
+                  height: 20,
+                ),
               ],
             ),
           ),
